@@ -62,3 +62,38 @@
 - Reviews: Օգտատերերի կարծիքներ
 
 # Exploratory Data Analysis (EDA)
+- Տվյալների ուսումնասիրություն և նախապատրաստում
+- Թվային փոփոխականների բաշխումների վիզուալիզացիա
+- Կոռելացիոն մատրիցի պատկերում
+- համեմատական boxplot-եր ըստ 'Output'-ի
+
+# Մոդելում օգտագործված հատկանիշները
+
+Age, Gender, Marital Status, Occupation, Monthly Income, Educational Qualifications, Ease and convenient, Time saving, More restaurant choices, Easy Payment option, More Offers and Discount, Good Food quality, Good Tracking system, Residence in busy location, Google Maps Accuracy, Good Road Condition, Low quantity low time, Delivery person ability, Influence of rating, Less Delivery time, High Quality of package, Number of calls, Politeness, Freshness, Temperature, Good Taste, Good Quantity և Output (target փոփոխական):
+
+# Տվյալների նախապատրաստում (Data Preprocessing)
+- կատեգորիկ տվյալների վերափոխում
+- կրկնվող տողերի հեռացում
+- բացակայող արժեքների հեռացում
+
+# Մոդելներ և արդյունքներ
+
+1. Լոգիստիկ ռեգրեսիա
+2. Random Forest
+3. SVM
+4. Gradient Boosting
+
+   
+__Մոդելների համեմատություն__
+
+| Մոդել | Միջին F1-score	 | Դիտողություններ | 
+|----------|----------|----------|
+|Logistic Regression| <div align="center">0.79    |Չի կանխագուշակում դժգոհ հաճախորդներին|
+|Random Forest| <div align="center">0.93    | Լավագույն մոդելը |
+|SVM| <div align="center">0.77    | Վատագույն մոդելը|
+|Gradient Boosting| <div align="center">0.89    | Կրկին լավ մոդել, որը կայուն է |
+
+# Եզրակացություն
+- Նախընտրելի է օգտագործել Random Forest մեթոդը լավագույն արդյունքը ստանալու համար: 
+- Լավ կաշխատի նաեւ Gradient Boosting մեթոդը: 
+- Իսկ SVM եւ Logistic Regression մեթոդները համեմատաբար վատ են կանխագուշակում:
